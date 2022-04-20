@@ -1,0 +1,100 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 1px;
+  /* transform: rotate(0turn); */
+  font-family: "Helvetica";
+  font-size: 12px;
+}
+
+div {
+  border: solid;
+  border-width: 0px;
+  border-color: brown;
+}
+
+#dark {
+  background-color: rgb(21, 51, 68);
+  color: white;
+}
+
+#light {
+  background-color: rgb(245, 253, 199);
+  color: black;
+}
+
+div#nav {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  /* background-color: rgb(165, 235, 165); */
+  justify-content: left;
+  align-items: center;
+
+  /* transform: translate(0, 70%) scale(0.5); */
+
+  /* transform: scale(0.5); */
+}
+
+div#nav [type="button"],
+div#nav button {
+  height: 2rem;
+  white-space: nowrap;
+  background: rgb(233, 218, 200); */
+
+  /* border: 10px; */
+}
+
+div#nav input {
+  height: 1.5rem;
+  background: rgb(245, 245, 202);
+  /* border: 10px; */
+}
+
+div#searcher {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+}
+
+div#menu {
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+}
+
+div#menu_mid {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: left;
+  /* width: 100%; */
+}
+
+div#header {
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  /* background-color: rgb(245, 213, 190); */
+  align-items: center;
+  justify-content: right;
+}
+
+div.switch{
+  border: 1px;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: right;
+}
+
+div.container{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  /* height: 10rem; */
+  width: 100%;
+}
